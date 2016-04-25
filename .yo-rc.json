@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.1.0",
+    "baseName": "JhipsterSample",
+    "packageName": "com.vitnob.myapp",
+    "packageFolder": "com/vitnob/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "ef6aa333c5f2b318e4cc117fa2001896a7d822ff",
+    "useSass": false,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "pt-pt",
+    "languages": [
+      "pt-pt",
+      "cs",
+      "en",
+      "fr",
+      "de",
+      "pl",
+      "es",
+      "tr"
+    ]
+  }
+}
